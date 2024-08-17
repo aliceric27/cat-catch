@@ -140,8 +140,7 @@ function init() {
     $("#skipDecrypt").prop("checked", G.M3u8SkipDecrypt);
     $("#StreamSaver").prop("checked", G.M3u8StreamSaver);
     $("#ffmpeg").prop("checked", G.M3u8Ffmpeg);
-    $("#autoClose").prop("checked", autoClose ? true : G.M3u8AutoClose);
-
+    $("#autoClose").prop("checked", G.M3u8AutoClose);
     // 存在密钥参数 自动填写密钥
     key && $("#customKey").val(key);
 
